@@ -1,0 +1,29 @@
+/* 交流イベント紹介ページの見た目。外部フォントや通信は使わない */
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: sans-serif;
+  line-height: 1.7;
+  color: #222;
+  background: #fff;
+}
+main {
+  max-width: 640px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 1px solid #222;
+  padding-bottom: 8px;
+}
+h2 {
+  font-size: 1.2rem;
+  margin-top: 32px;
+}
+dl dt {
+  font-weight: bold;
+  margin-top: 12px;
+}
+dl dd {
+  margin: 0 0 4px 0;
+}
